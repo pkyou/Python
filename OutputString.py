@@ -8,4 +8,4 @@ class People:
     status = 1
 
     def __init__(self):
-        self.age = 20
+      pass
