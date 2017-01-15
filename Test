@@ -12,7 +12,7 @@ if __name__ == '__main__':
     age = p.age
     print(age)
     print(p.sex)
-    answer = GetAnswer(1,8)
+    answer = GetAnswer(4,9)
     print(answer.GetAll())
 
 
