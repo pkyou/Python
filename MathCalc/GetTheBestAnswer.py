@@ -1,3 +1,6 @@
+
+import copy
+
 class GetAnswer:
     minValue = 0
     maxValue = 0
@@ -29,7 +32,8 @@ class GetAnswer:
     def GetInitAnswer(self,firstValue):
         rangValue = set(range(1,9))
         li=list(rangValue)
-        li2 = li.remove(firstValue)
+        li2 = copy.copy(li)
+        li.remove(firstValue)
         print('2')
         print(li2,type(li2))
         print('1')
