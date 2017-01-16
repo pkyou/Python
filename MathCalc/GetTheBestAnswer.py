@@ -29,6 +29,10 @@ class GetAnswer:
     def GetInitAnswer(self,firstValue):
         rangValue = set(range(1,9))
         li=list(rangValue)
+        li2 = li.remove(firstValue)
+        print('2')
+        print(li2,type(li2))
+        print('1')
         print(li,type(li))
         pass
 
