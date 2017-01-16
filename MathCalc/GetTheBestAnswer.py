@@ -26,9 +26,13 @@ class GetAnswer:
                 return "%d,%d" % (firstValue, i) + "\r\n"
         return ""
 
-    def GetInitAnswer(self):
+    def GetInitAnswer(self,firstValue):
+        rangValue = set(range(1,9))
+        li=list(rangValue)
+        print(li,type(li))
         pass
 
+#TODO 添加
     def AdditionCheck(self,checkedValue1,checkedValue2,targetValue):
         return checkedValue1 + checkedValue2 == targetValue
     def SubtractionCheck(self,checkedValue1,checkedValue2,targetValue):

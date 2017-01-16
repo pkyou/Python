@@ -10,11 +10,12 @@ if __name__ == '__main__':
     # print('this is a second count')
     p = OutputString.People()
     age = p.age
-    print(age)
-    print(p.sex)
-    answer = GetAnswer(4,9)
+    # print(age)
+    # print(p.sex)
+    answer = GetAnswer(4,12)
     print(answer.GetAll())
 
+    print(answer.GetInitAnswer(2))
 
 # 抓取糗事百科内容
 
