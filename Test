@@ -17,8 +17,6 @@ if __name__ == '__main__':
 
     print(answer.GetInitAnswer(2))
 
-# 抓取糗事百科内容
-
 
 # url = "http://www.baidu.com"
 # data = urllib.request.urlopen(url).read()
