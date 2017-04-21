@@ -1,11 +1,11 @@
 #encoding:UTF-8
-import urllib
+import urllib.request 
 
 
 if __name__ == "__main__":
     page = 2
-    url = "http://www.qiushibaike.com/hot/"
-    request = urllib.request(url)
-    response = urllib.request.urlopen(request)
-    print(response.read())
+    url = "http://tieba.baidu.com/f?kw=%B3%A4%B0%B2%B4%F3%D1%A7"
+    data = urllib.request.urlopen(url).read()#
+    data = data.decode('UTF-8')
+    print(data)
     print("hello pkyou. I love you baby")
